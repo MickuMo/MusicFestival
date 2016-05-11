@@ -82,15 +82,29 @@
     color: aliceblue;
     letter-spacing: 1px;
 }
+
+
 .main_nav ul {
     padding-left: 2%;
+    width: 100%;
+    margin: 0 auto;
 }
-.main_nav a {
-    color: aliceblue;
+nav.main_nav a {
+    color: #edf3f8;
     letter-spacing: 2px;
     text-transform: capitalize;
-    text-align: ;
 }
+
+nav.main_nav li>a:focus,
+nav.main_nav li>a:active {
+    background-color: #f44d3c;
+    color: #333;
+}
+
+nav.main_nav li>a:hover{
+    background-color: #f44d3c;
+}
+
 .iconImage {
     margin: 0 0 10px 0;
 }
